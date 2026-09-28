@@ -1,0 +1,3 @@
+# The installer is published as the release's download, not kept in the repository: GitHub
+# refuses any file over 100 MB in one.
+*.msi

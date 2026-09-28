@@ -1,0 +1,7 @@
+# The installer is bytes, never text: no line endings touched, no diffs attempted.
+*.msi binary
+
+# The papers keep LF in the repository.
+*.md text eol=lf
+LICENSE text eol=lf
+SHA256SUMS text eol=lf
