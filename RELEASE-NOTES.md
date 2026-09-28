@@ -1,11 +1,20 @@
-# DT-Iverta 1.0.0
+# DT-Iverta 1.0.1
 
-Release notes, 28 September 2026. The first official release. It is not signed, so Windows may warn
-before its first start and an antivirus may hold its first run on a machine.
+Release notes, 28 September 2026. It is not signed, so Windows may warn before its first start and
+an antivirus may hold its first run on a machine.
+
+## What changed since 1.0.0
+
+- **Issues no longer closes the window.** Leaving Issues while it listed nothing (no workspace, or
+  nothing matching) and coming back to it closed the window.
+- **A new document is written on its page.** After naming a new document and pressing Enter, what
+  was typed went onto the end of its title instead of onto the page.
+
+1.0.1 installs over 1.0.0: run its installer and it replaces the older one.
 
 ## Installing it
 
-`DT-Iverta-1.0.0-x64.msi` installs DT-Iverta for everyone on the computer, into
+`DT-Iverta-1.0.1-x64.msi` installs DT-Iverta for everyone on the computer, into
 `C:\Program Files\DT-Iverta`, with DT-Iverta in the Start menu and its folder on the PATH. Windows
 asks once for permission. Settings, Apps takes it away again, and leaves each person's own records,
 settings and keys where they are. Windows 10 or 11, 64-bit.

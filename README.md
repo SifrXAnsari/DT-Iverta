@@ -1,4 +1,4 @@
-# DT-Iverta 1.0.0
+# DT-Iverta 1.0.1
 
 **The app asks, you answer.** *Think it and Dream it to life.*
 
@@ -10,16 +10,17 @@ most pressing first, and every one of them yours to decide.
 
 | File | What it is |
 |---|---|
-| `DT-Iverta-1.0.0-x64.msi` | the installer: everything DT-Iverta is, in one file. It is the release's download (Releases, 1.0.0), not a file in the repository, which holds nothing over 100 MB |
+| `DT-Iverta-1.0.1-x64.msi` | the installer: everything DT-Iverta is, in one file. It is the release's download (Releases, 1.0.1), not a file in the repository, which holds nothing over 100 MB |
 | `SHA256SUMS` | the installer's SHA-256, to check the copy you have is this one |
 | `LICENSE` | the MIT licence |
-| `RELEASE-NOTES.md` | what is in 1.0.0, and its known limits |
+| `RELEASE-NOTES.md` | what is in 1.0.1, what changed since 1.0.0, and its known limits |
 | `THIRD-PARTY-NOTICES.md` | every component it is built from, and each one's terms |
 
 ## Installing
 
-Download `DT-Iverta-1.0.0-x64.msi` from the 1.0.0 release and run it. Windows asks once for permission to install for everyone on the
-computer. DT-Iverta goes into `C:\Program Files\DT-Iverta`, with DT-Iverta in the Start menu and
+Download `DT-Iverta-1.0.1-x64.msi` from the 1.0.1 release and run it; it replaces 1.0.0 if that is
+installed. Windows asks once for permission to install for everyone on the computer. DT-Iverta goes
+into `C:\Program Files\DT-Iverta`, with DT-Iverta in the Start menu and
 its folder on the PATH, so `DT-Iverta` works in any terminal opened after it. Settings, Apps takes
 it away again; each person's own records, settings and keys stay where they are. Windows 10 or 11,
 64-bit.
@@ -27,7 +28,7 @@ it away again; each person's own records, settings and keys stay where they are.
 To check the installer before you run it, in PowerShell:
 
 ```
-Get-FileHash .\DT-Iverta-1.0.0-x64.msi -Algorithm SHA256
+Get-FileHash .\DT-Iverta-1.0.1-x64.msi -Algorithm SHA256
 ```
 
 and compare the hash with the one in `SHA256SUMS`.
